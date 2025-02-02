@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ed0bdd5ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="logo.png" alt="Spotify Logo"><span>Spotify</span>
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div>
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="Song Cover"> 
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay">
+                        <span class="timespan">05:34 <i class="fa-solid fa-play songItemPlay" id="0"></i></span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jpg" alt="Song Cover"> 
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay">
+                        <span class="timespan">03:42 <i class="fa-solid fa-play songItemPlay" id="1"></i></span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/3.jpg" alt="Song Cover"> 
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay">
+                        <span class="timespan">04:15 <i class="fa-solid fa-play songItemPlay" id="2"></i></span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/4.jpg" alt="Song Cover"> 
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay">
+                        <span class="timespan">03:50 <i class="fa-solid fa-play songItemPlay" id="3"></i></span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/5.jpg" alt="Song Cover"> 
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay">
+                        <span class="timespan">04:05 <i class="fa-solid fa-play songItemPlay" id="4"></i></span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/6.jpg" alt="Song Cover"> 
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay">
+                        <span class="timespan">02:55 <i class="fa-solid fa-play songItemPlay" id="5"></i></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" alt="Playing" id="gif" width="40px">
+            <span id="masterSongName">Let Me Love You</span>
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
